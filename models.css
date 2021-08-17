@@ -1,0 +1,930 @@
+ /* mobile */
+
+@media only screen and (max-width: 600px) {
+
+	/* --1. default settings --*/
+
+	 body {
+        font-family: 'Imbue', serif;
+        color: hsl(0, 0%, 42%);
+        line-height: 25px;
+        font-size: 18px !important;
+        font-weight: normal !important;
+        box-sizing: content-box;
+        padding: 0;
+        margin: 0;
+        width: max-width;
+        height: max-content;
+    }
+
+	/*--2. Navigation --*/
+
+header {
+            box-sizing: border-box;
+            background-color: hsl(340, 60%, 65%);
+            display: static;
+            height: 180px;
+            width: max-width;
+            top: 0px;
+            left: 0px;
+            clear: both !important;
+            padding: 0px;
+            margin: 0px;
+            z-index: 1;	
+}
+
+ header #logo {
+                box-sizing: border-box;
+                display: inline-block;
+                position: relative;
+                top: 30px;
+                left: 30px;
+            }
+
+	.navBurgerMenu {
+                display: inline-flex;
+                height: 80px;
+                width: 90%;
+                clear: both;
+                background: url(../images/menuBar.png) no-repeat 100% 0;
+                cursor: pointer;
+            }
+
+            nav {
+                display: none;
+                /*nav display*/
+                padding: 0px;
+                margin: 0px;
+                margin: 7px;
+                float: right;
+                background-color: hsl(340, 60%, 65%);
+                max-width: 480px;
+            }
+
+            nav ul {
+                    height: 0px;
+                }
+
+
+                nav ul .open {
+                    height: auto;
+                }
+
+
+                nav li {
+                    height: 40px;
+                    font-family: 'Amiri', serif;
+                    font-size: 24px;
+                    width: 120px;
+                    padding: 12.5px;
+                    margin: 0px;
+                    color: hsl(0, 13%, 92%);
+                    display: block;
+                    list-style: none;
+                    text-transform: uppercase;
+                    text-align: center;
+                }
+
+            nav li a:link {
+                        color: hsl(0, 13%, 92%);
+                        text-decoration: none;
+                        list-style: none;
+                    }
+            nav li  a:visited {
+                        color: hsl(0, 13%, 92%);
+                        text-decoration: none;
+                        list-style: none;
+                    }
+            nav li    a:focus {
+                        color: hsl(333, 84%, 58%);
+                        background-color: hsl(342, 56%, 81%);
+                        text-decoration: none;
+                        list-style: none;
+                        margin: 9px;
+                        padding: 10px;
+                    }
+             nav li  a:hover {
+                        color: hsl(333, 84%, 58%);
+                        background-color: hsl(342, 56%, 81%);
+                        transition: 0.55s;
+                        text-decoration: none;
+                        list-style: none;
+                        margin: 9px;
+                        padding: 10px;
+                        border-radius: 20px;
+                    }
+            nav li  a:active {
+                        color: hsl(333, 84%, 58%);
+                        background-color: hsl(342, 56%, 81%);
+                        text-decoration: none;
+                        list-style: none;
+                    }
+
+
+                /*-- 2. Layout --*/
+
+                 #wrapper {
+                    display: inline-block;
+                    font-family: 'Imbue', serif; 
+                    box-sizing: border-box;
+                    position: absolute;
+                    top: 150px;
+                    left: 0px !important;
+                    padding: 0px;
+                    margin: 0px auto;
+                    height: max-content;
+                    font-size: 18px;
+                    max-width: max-content;
+                    z-index: 2;
+                }
+
+                #flex{
+                    box-sizing: border-box;
+                    transform: translate(10%, 2%);
+                    margin-bottom: 150px;
+                    }
+
+                #flex img {
+                    clear: both;
+                    margin: 10px;
+                }
+
+                footer {
+                    display: inline-block;
+                    position: static;
+                    bottom: 0px;
+                    width: 100%;
+                    font-size: 18px;
+                    font-weight: 900;
+                    padding: 24px;
+                    padding-bottom: 0;
+                    background-color: hsl(342, 56%, 81%);
+                    color: hsl(333, 84%, 58%);
+                    border-top: 2px solid hsl(0, 0%, 60%);
+                      }
+
+
+    #trademark {
+        font-size: 8px;
+    }
+
+    #mediaQueries {
+        display: block;
+        float: left;
+    }
+
+    #TK_Slogan {
+        display: block;
+        float: right;
+    }
+}
+
+/* tablet */ 
+
+@media only screen and (min-width: 600px) {
+
+    /* --- 1. Default settings ---*/
+    body {
+        font-family: 'Imbue', serif;
+        color: hsl(0, 0%, 42%);
+        line-height: 25px;
+        font-size: 24px;
+        font-size: 18px !important;
+        box-sizing: border-box;
+        padding: 10px;
+        margin: 0px;
+    }
+
+
+    /* ---2. Navigation ---*/
+
+ header {
+            box-sizing: border-box;
+            background-color: hsl(340, 60%, 65%);
+            display: static;
+            height: auto;
+            width: max-width;
+            top: 0px;
+            left: 0px;
+            clear: both !important;
+            padding: 0px;
+            margin: 0px;
+            z-index: 1; 
+}
+
+ header #logo {
+                box-sizing: border-box;
+                display: inline-block;
+                position: relative;
+                top: 30px;
+                left: 30px;
+            }
+
+    .navBurgerMenu {
+                display: inline-flex;
+                height: 80px;
+                width: 90%;
+                clear: both;
+                background: url(../images/menuBar.png) no-repeat 100% 0;
+                cursor: pointer;
+            }
+
+            nav {
+                display: none;
+                /*nav display*/
+                padding: 0px;
+                margin: 0px;
+                margin: 7px;
+                float: right;
+                background-color: hsl(340, 60%, 65%);
+                max-width: 480px;
+            }
+
+            nav ul {
+                    height: 0px;
+                }
+
+
+                nav ul .open {
+                    height: auto;
+                }
+
+
+                nav li {
+                    height: 40px;
+                    font-family: 'Amiri', serif;
+                    font-size: 24px;
+                    width: 120px;
+                    padding: 12.5px;
+                    margin: 0px;
+                    color: $white;
+                    display: block;
+                    list-style: none;
+                    text-transform: uppercase;
+                    text-align: center;
+                }
+
+            nav li a:link {
+                        color: hsl(0, 13%, 92%);
+                        text-decoration: none;
+                        list-style: none;
+                    }
+            nav li  a:visited {
+                        color: hsl(0, 13%, 92%);
+                        text-decoration: none;
+                        list-style: none;
+                    }
+            nav li    a:focus {
+                        color: hsl(333, 84%, 58%);
+                        background-color: hsl(342, 56%, 81%);
+                        text-decoration: none;
+                        list-style: none;
+                        margin: 9px;
+                        padding: 10px;
+                    }
+             nav li  a:hover {
+                        color: hsl(333, 84%, 58%);
+                        background-color: hsl(342, 56%, 81%);
+                        transition: 0.55s;
+                        text-decoration: none;
+                        list-style: none;
+                        margin: 9px;
+                        padding: 10px;
+                        border-radius: 20px;
+                    }
+            nav li  a:active {
+                        color: hsl(333, 84%, 58%);
+                        background-color: hsl(342, 56%, 81%);
+                        text-decoration: none;
+                        list-style: none;
+                    }
+            /*-- 2 layout --*/
+
+        #wrapper {
+            box-sizing: border-box;
+            display: block;
+            position: absolute;
+            width: max-width;
+            padding: 0px;
+            z-index: 1;
+            height: auto;
+            transform: translate(2%, 2%);
+        }
+
+        
+        footer {
+                    display: inline-block;
+                    position: static;
+                    bottom: 0px;
+                    width: 100%;
+                    font-size: 18px;
+                    font-weight: 900;
+                    padding: 24px;
+                    padding-bottom: 0;
+                    background-color: hsl(342, 56%, 81%);
+                    color: hsl(333, 84%, 58%);
+                    border-top: 2px solid hsl(0, 0%, 60%);
+                      }
+        }
+
+   #trademark {
+         font-size: 12px;
+    }
+
+    #mediaQueries {
+        display: block;
+        float: left;
+    }
+
+    #TK_Slogan {
+        display: inline-block;
+        float: right;
+    }
+}
+
+/* tablet landscape */
+@media only screen and (min-width: 768px){
+    header {
+            box-sizing: border-box;
+            background-color: hsl(340, 60%, 65%);
+            display: fixed;
+            height: auto;
+            width: 25%;
+            top: 0px;
+            left: 0px; 
+            clear: both !important;
+            padding: 0px;
+            margin: 0px;
+            z-index: 1; 
+}
+
+ header #logo {
+                box-sizing: border-box;
+                display: inline-block;
+                position: relative;
+                top: 30px;
+                left: 30px;
+            }
+
+    .navBurgerMenu {
+                display: inline-flex;
+                height: 80px;
+                width: 90%;
+                clear: both;
+                background: url(../images/menuBar.png) no-repeat 100% 0;
+                cursor: pointer;
+            }
+
+            nav {
+                display: none;
+                /*nav display*/
+                padding: 0px;
+                margin: 0px;
+                margin: 7px;
+                float: right;
+                background-color: hsl(340, 60%, 65%);
+                max-width: 480px;
+            }
+
+            nav ul {
+                    height: 0px;
+                }
+
+
+                nav ul .open {
+                    height: auto;
+                }
+
+
+                nav li {
+                    height: 40px;
+                    font-family: 'Amiri', serif;
+                    font-size: 24px;
+                    width: 120px;
+                    padding: 12.5px;
+                    margin: 0px;
+                    color: $white;
+                    display: block;
+                    list-style: none;
+                    text-transform: uppercase;
+                    text-align: center;
+                }
+
+            nav li a:link {
+                        color: hsl(0, 13%, 92%);
+                        text-decoration: none;
+                        list-style: none;
+                    }
+            nav li  a:visited {
+                        color: hsl(0, 13%, 92%);
+                        text-decoration: none;
+                        list-style: none;
+                    }
+            nav li    a:focus {
+                        color: hsl(333, 84%, 58%);
+                        background-color: hsl(342, 56%, 81%);
+                        text-decoration: none;
+                        list-style: none;
+                        margin: 9px;
+                        padding: 10px;
+                    }
+             nav li  a:hover {
+                        color: hsl(333, 84%, 58%);
+                        background-color: hsl(342, 56%, 81%);
+                        transition: 0.55s;
+                        text-decoration: none;
+                        list-style: none;
+                        margin: 9px;
+                        padding: 10px;
+                        border-radius: 20px;
+                    }
+            nav li  a:active {
+                        color: hsl(333, 84%, 58%);
+                        background-color: hsl(342, 56%, 81%);
+                        text-decoration: none;
+                        list-style: none;
+                    }
+
+
+        #wrapper {
+            box-sizing: border-box;
+            display: inline-block;
+            position: absolute;
+            width: 60%;
+            padding: 0px;
+            z-index: 1;
+            height: auto;
+        }
+
+        #row1 {
+            display: inline-flex;
+            align-self: auto;
+            height: auto;
+            flex: 500px 0 2;
+        }
+
+        #chikitta {
+            display: inline-flex;
+            box-sizing: border-box;
+            float: left;
+            margin: 5px;
+        }
+
+        #jita {
+            display: inline-flex;
+            box-sizing: border-box;
+            float: right;
+            margin: 5px;
+        }
+
+        #row2_Railway {
+            display: inline-flex;
+            width: 1000px;
+            height: 720px;
+            flex: 500px 0 2;
+        }
+
+        .row2_landscape {
+            margin-right: 10px;
+        }
+
+        #row3_costume {
+            display: inline-flex;
+            width: 1000px;
+            height: 720px;
+            flex: 500px 0 2;
+        }
+
+        .row3_landscape {
+            margin-right: 10px;
+        }
+
+        #row4_portraits {
+            display: inline-flex;
+            width: 1000px;
+            height: 720px;
+            flex: 335px 0 3;
+        }
+
+        .portraitWall img {
+            margin: 2px;
+        }
+
+            } /*end tablet ladscape*/
+
+
+/* notebook*/
+@media only screen and (min-width: 992px) {
+     header {
+            box-sizing: border-box;
+            background-color: hsl(340, 60%, 65%);
+            display: static;
+            height: auto;
+            width: max-width;
+            top: 0px;
+            left: 0px;
+            clear: both !important;
+            padding: 0px;
+            margin: 0px;
+            z-index: 1; 
+}
+
+ header #logo {
+                box-sizing: border-box;
+                display: inline-block;
+                position: relative;
+                top: 30px;
+                left: 30px;
+            }
+
+    .navBurgerMenu {
+                display: inline-flex;
+                height: 80px;
+                width: 90%;
+                clear: both;
+                background: url(../images/menuBar.png) no-repeat 100% 0;
+                cursor: pointer;
+            }
+
+            nav {
+                display: none;
+                /*nav display*/
+                padding: 0px;
+                margin: 0px;
+                margin: 7px;
+                float: right;
+                background-color: hsl(340, 60%, 65%);
+                max-width: 480px;
+            }
+
+            nav ul {
+                    height: 0px;
+                }
+
+
+                nav ul .open {
+                    height: auto;
+                }
+
+
+                nav li {
+                    height: 40px;
+                    font-family: 'Amiri', serif;
+                    font-size: 24px;
+                    width: 120px;
+                    padding: 12.5px;
+                    margin: 0px;
+                    color: $white;
+                    display: block;
+                    list-style: none;
+                    text-transform: uppercase;
+                    text-align: center;
+                }
+
+            nav li a:link {
+                        color: hsl(0, 13%, 92%);
+                        text-decoration: none;
+                        list-style: none;
+                    }
+            nav li  a:visited {
+                        color: hsl(0, 13%, 92%);
+                        text-decoration: none;
+                        list-style: none;
+                    }
+            nav li    a:focus {
+                        color: hsl(333, 84%, 58%);
+                        background-color: hsl(342, 56%, 81%);
+                        text-decoration: none;
+                        list-style: none;
+                        margin: 9px;
+                        padding: 10px;
+                    }
+             nav li  a:hover {
+                        color: hsl(333, 84%, 58%);
+                        background-color: hsl(342, 56%, 81%);
+                        transition: 0.55s;
+                        text-decoration: none;
+                        list-style: none;
+                        margin: 9px;
+                        padding: 10px;
+                        border-radius: 20px;
+                    }
+            nav li  a:active {
+                        color: hsl(333, 84%, 58%);
+                        background-color: hsl(342, 56%, 81%);
+                        text-decoration: none;
+                        list-style: none;
+                    }   
+
+         #wrapper {
+            box-sizing: border-box;
+            display: inline-block;
+            width: 85%;
+            margin: 0px;
+            padding: 0px;
+            z-index: 1;
+            height: auto;
+            transform: translate(10%, 2%);
+        }
+
+
+    #flex {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 900px;
+        margin: 0px 20px;
+    }
+
+    #row1 {
+        display: inline-flex;
+        align-self: auto;
+        height: auto;
+        flex: 420px 0 2;
+    }
+
+    #chikitta {
+        display: inline-flex;
+        box-sizing: border-box;
+        float: left;
+        margin: 5px;
+    }
+
+    #jita {
+        display: inline-flex;
+        box-sizing: border-box;
+        float: right;
+        margin: 5px;
+    }
+
+    #row2_Railway {
+        display: inline-flex;
+        width: max-width;
+        height: auto;
+        flex: 450px 0 2;
+    }
+
+    .row2_landscape {
+        margin-right: 10px;
+    }
+
+    #row3_costume {
+        display: inline-flex;
+        width: max-width;
+        height: auto;
+        flex: 450px 0 2;
+    }
+
+    .row3_landscape {
+        margin-right: 10px;
+    }
+
+    #row4_portraits {
+        display: inline-flex;
+        width: 100%;
+        height: auto;
+        flex: 320px 220px 3;
+    }
+
+    .portraitWall img {
+        margin: 2px;
+    }
+
+    footer {
+        display: inline-block;
+        width: 100%;
+        position: static;
+        bottom: 0px;
+        top: 0;
+        font-size: 24px;
+        font-weight: 900;
+        padding: 24px;
+        padding-bottom: 0;
+        margin: 0px;
+        background-color: hsl(342, 56%, 81%);
+        color: hsl(333, 84%, 58%);
+        border-top: 2px solid hsl(0, 0%, 60%);
+    }
+
+    #trademark {
+        font-size: 12px;
+    }
+
+    #mediaQueries {
+        display: block;
+        float: left;
+    }
+
+    #TK_Slogan {
+        display: block;
+        float: right !important;
+    }
+}
+
+/* desktop */
+
+@media only screen and (min-width: 1200px) {
+
+    body {
+    font-family: 'Imbue', serif;
+    color: hsl(0, 0%, 42%);
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 35px;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+     header {
+        box-sizing: border-box;
+        background-color: hsl(340, 60%, 65%);
+        position: fixed;
+        width: 20%;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        z-index: 1;
+        padding: 105px 0px 0px 7px;
+        margin: 0;
+       }
+
+        header #logo {
+                box-sizing: border-box;
+                display: block;
+                position: relative;
+                top: 20px;
+                left: 10px;
+            }
+
+       .navBurgerMenu {
+                display: none;
+                height: 80px;
+                width: 90%;
+                clear: both;
+                background: url(../images/menuBar.png) no-repeat 100% 0;
+                cursor: pointer;
+            }
+
+    nav {
+            display: inline-block;
+            float: left;
+            margin-top: 160px;
+            margin-right: 15px;
+        }
+
+    nav li {
+            height: 40px;
+            font-family: 'Amiri', serif;
+            font-size: 24px;
+            width: 120px;
+            padding: 12.5px;
+            color: hsl(0, 13%, 92%);
+            display: block;
+            list-style: none;
+            text-transform: uppercase;
+        }
+
+    a:link {
+                color: hsl(0, 13%, 92%);
+                text-decoration: none;
+                list-style: none;
+            }
+            a:visited {
+                color: hsl(0, 13%, 92%);
+                text-decoration: none;
+                list-style: none;
+            }
+            a:focus {
+                color: hsl(333, 84%, 58%);
+                background-color: hsl(342, 56%, 81%);
+                text-decoration: none;
+                list-style: none;
+                margin: 9px;
+                padding: 10px;
+            }
+            a:hover {
+                color: hsl(333, 84%, 58%);
+                background-color: hsl(342, 56%, 81%);
+                transition: 0.55s;
+                text-decoration: none;
+                list-style: none;
+                margin: 9px;
+                padding: 10px;
+                border-radius: 20px;
+            }
+            a:active {
+                color: hsl(333, 84%, 58%);
+                background-color: hsl(342, 56%, 81%);
+                text-decoration: none;
+                list-style: none;
+            }
+
+            /*-- 2 layout --*/
+
+    #wrapper {
+        box-sizing: border-box;
+        display: inline-block;
+        position: absolute;
+        left: 350px;
+        width: 70%;
+        margin: 0px;
+        padding: 0px;
+        z-index: 1;
+        height: auto;
+        transform: translate(-5%, 0%);
+    }
+
+    #flex {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 1000px;
+        margin: 0px 20px;
+    }
+
+    #row1 {
+        display: inline-flex;
+        align-self: auto;
+        height: auto;
+        flex: 500px 0 2;
+    }
+
+    #chikitta {
+        display: inline-flex;
+        box-sizing: border-box;
+        float: left;
+        margin: 5px;
+    }
+
+    #jita {
+        display: inline-flex;
+        box-sizing: border-box;
+        float: right;
+        margin: 5px;
+    }
+
+    #row2_Railway {
+        display: inline-flex;
+        width: max-width;
+        height: 720px;
+        flex: 500px 0 2;
+    }
+
+    .row2_landscape {
+        margin-right: 10px;
+    }
+
+    #row3_costume {
+        display: inline-flex;
+        width: max-width;
+        height: 720px;
+        flex: 500px 0 2;
+    }
+
+    .row3_landscape {
+        margin-right: 10px;
+    }
+
+    #row4_portraits {
+        display: inline-flex;
+        width: max-width;
+        height: 720px;
+        flex: 335px 0 3;
+    }
+
+    .portraitWall img {
+        margin: 2px;
+    }
+
+    footer {
+        display: inline-block;
+        width: 100%;
+        position: static;
+        bottom: 0px;
+        top: 0;
+        font-size: 24px;
+        font-weight: bold;
+        padding: 24px;
+        padding-bottom: 0;
+        margin: 0px;
+        background-color: hsl(342, 56%, 81%);
+        color: hsl(333, 84%, 58%);
+        border-top: 2px solid hsl(0, 0%, 60%);
+    }
+
+    #trademark {
+        font-size: 12px;
+    }
+
+    #mediaQueries {
+        display: block;
+        float: left;
+    }
+
+    #TK_Slogan {
+        display: block;
+        float: right !important;
+    }
+}
